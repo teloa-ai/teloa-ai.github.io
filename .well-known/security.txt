@@ -3,3 +3,4 @@ Expires: 2027-09-01T00:00:00.000Z
 Policy: https://security.teloa.ai/report/
 Preferred-Languages: en, zh
 Canonical: https://security.teloa.ai/.well-known/security.txt
+Canonical: https://teloa-ai.github.io/.well-known/security.txt

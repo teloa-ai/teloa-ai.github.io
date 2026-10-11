@@ -6,4 +6,4 @@
 
 Teloa 名称、品牌图形和小松鼠素材的权利归其权利人；不作为本项目 Apache-2.0 代码或 CC BY 4.0 基线正文的一部分授予商标与品牌使用权。
 
-`teloa.svg` 为官网公开字标，按同一品牌使用范围原样复用。`site-chrome.js`、`site-chrome.css` 与 `security-tokens.css` 是从 Teloa 共用站点规范导出的公开导航、页脚和设计令牌；维护脚本及内部资料不随本站发布。
+teloa.svg 为官网公开字标，按同一品牌使用范围原样复用。organization.js 与 organization.css 用于本组织资源入口的双语内容与布局。安全门户的导航、页脚与维护代码位于独立 security-site 仓库，本仓库不发布内部维护资料。
