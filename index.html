@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Max Luo · Teloa AI Security">
+  <meta name="description" content="源于 Teloa 开发实践的 AI 安全研究与开源计划：开放基线、参考架构和评估工具。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Teloa AI Security · AI 安全研究与开源</title>
+  <link rel="icon" type="image/png" href="assets/teloa-avatar.png">
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #263b31; background: #f5f4ed; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 960px; margin: 0 auto; padding: 64px 24px; }
+    .eyebrow { color: #466553; font-size: 14px; letter-spacing: .08em; }
+    .brand { display: flex; align-items: center; gap: 16px; margin-bottom: 36px; font-weight: 600; }
+    .brand img { width: 48px; height: 48px; }
+    header { display: grid; grid-template-columns: 1fr 180px; gap: 24px; align-items: center; }
+    .companion { width: 180px; height: 180px; object-fit: contain; }
+    h1 { margin: 12px 0 24px; font-size: clamp(32px, 6vw, 52px); letter-spacing: -.03em; }
+    p { font-size: 17px; line-height: 1.9; margin: 0 0 20px; }
+    .intro { max-width: 800px; color: #536455; }
+    h2 { margin: 48px 0 16px; font-size: 22px; }
+    article { background: white; border: 1px solid #dce3ec; border-radius: 16px; padding: 28px; }
+    h3 { margin: 0 0 12px; font-size: 23px; }
+    article p { color: #485a6f; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; }
+    a { color: #294c3d; text-underline-offset: 4px; }
+    nav a { border: 1px solid #ced9e7; border-radius: 8px; padding: 10px 16px; text-decoration: none; }
+    nav a:first-child { color: white; background: #294c3d; border-color: #294c3d; }
+    .team { display: flex; justify-content: space-around; gap: 12px; margin: 28px 0 0; padding: 20px; border: 1px solid #dce3d9; border-radius: 16px; background: #fafaf6; }
+    .team figure { margin: 0; text-align: center; font-size: 14px; color: #466553; }
+    .team img { display: block; width: 80px; height: 80px; object-fit: contain; margin: 0 auto 12px; }
+    a:focus-visible { outline: 3px solid #7bade5; outline-offset: 4px; }
+    footer { margin-top: 40px; font-size: 14px; color: #627286; }
+    @media (max-width: 540px) { main { padding: 40px 20px; } article { padding: 22px; } header { grid-template-columns: 1fr; } .companion { width: 120px; height: 120px; } .team { padding: 16px 8px; gap: 4px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><img src="assets/teloa-avatar.png" width="48" height="48" alt=""><span>Teloa AI Security</span></div>
+    <header>
+      <div>
+      <div class="eyebrow">AI 安全研究与开源</div>
+      <h1>Teloa AI Security</h1>
+      <p class="intro">Teloa AI Security 是源于 Teloa 开发实践的 AI 安全研究与开源计划，关注智能体身份、授权、执行边界与安全治理，并将设计经验整理为开放基线、参考架构和评估工具。</p>
+      </div><img class="companion" src="assets/teloa-security.webp" width="180" height="180" alt="小松鼠 Teloa，安全团队的品牌伙伴">
+    </header>
+    <section aria-labelledby="projects">
+      <h2 id="projects">开放项目</h2>
+      <article>
+        <h3>企业智能体身份与授权安全基线</h3>
+        <p>240 条可验证要求，覆盖智能体身份、委托、授权、凭证、执行隔离与治理。提供七种语言的基线、参考架构和在线自评工具，支持成熟度报告与 Excel 导入导出。</p>
+        <nav aria-label="项目入口">
+          <a href="/agent-baseline-assessor/?lang=zh-CN">在线自评</a>
+          <a href="/agent-baseline-assessor/architecture.html?lang=zh-CN">参考架构</a>
+          <a href="https://github.com/teloa-ai/agent-baseline-assessor">GitHub 与文档</a>
+        </nav>
+      </article>
+    </section>
+    <section aria-labelledby="team">
+      <h2 id="team">小松鼠 Teloa，加入安全团队</h2>
+      <div class="team">
+        <figure><img src="assets/teloa-security.webp" width="80" height="80" alt="" loading="lazy"><figcaption>先核验身份</figcaption></figure>
+        <figure><img src="assets/teloa-focused.png" width="80" height="80" alt="" loading="lazy"><figcaption>权限要收敛</figcaption></figure>
+        <figure><img src="assets/teloa-nailed-it.png" width="80" height="80" alt="" loading="lazy"><figcaption>证据要留好</figcaption></figure>
+      </div>
+    </section>
+    <footer><a href="https://github.com/cybermaxluo">Max Luo</a> · <a href="https://github.com/teloa-ai">Teloa AI Security</a></footer>
+  </main>
+</body>
+</html>
