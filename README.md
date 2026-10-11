@@ -6,7 +6,7 @@ Teloa AI Security 是源于 Teloa 开发实践的 AI 安全研究与开源计划
 
 公共安全站点：[security.teloa.ai](https://security.teloa.ai/)
 
-作者：Max Luo · 发起与维护：Teloa AI Security。
+发起与维护：Teloa AI Security。
 
 ## 项目入口
 
