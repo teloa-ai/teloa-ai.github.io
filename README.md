@@ -2,22 +2,24 @@
 
 <img src="assets/teloa-avatar.png" width="64" alt="Teloa">
 
-Teloa AI Security 是源于 Teloa 开发实践的 AI 安全研究与开源计划，关注智能体身份、授权、执行边界与安全治理，并将设计经验整理为开放基线、参考架构和评估工具。
+**English** · [简体中文](README.zh-CN.md)
 
-公共安全站点：[security.teloa.ai](https://security.teloa.ai/)
+Teloa AI Security is an AI security research and open-source initiative rooted in Teloa development. It focuses on agent identity, authorization, execution boundaries, and security governance, turning design experience into an open baseline, reference architectures, and assessment tools.
 
-发起与维护：Teloa AI Security。
+Public security site: [security.teloa.ai](https://security.teloa.ai/)
 
-## 项目入口
+Initiated and maintained by Teloa AI Security.
 
-- [智能体安全基线在线自评](https://security.teloa.ai/agent-baseline-assessor/?lang=zh-CN)
-- [多语言参考架构](https://security.teloa.ai/agent-baseline-assessor/architecture.html?lang=zh-CN)
-- [项目仓库与文档](https://github.com/teloa-ai/agent-baseline-assessor)
+## Open projects
 
-## 部署
+- [Agent security baseline assessment](https://security.teloa.ai/agent-baseline-assessor/?lang=en)
+- [Multilingual reference architectures](https://security.teloa.ai/agent-baseline-assessor/01-standard/diagrams/?lang=en)
+- [Project repository and documentation](https://github.com/teloa-ai/agent-baseline-assessor)
 
-本仓库发布组织级 GitHub Pages 首页，域名由 `CNAME` 指定。项目站点由各自仓库独立部署，并继承组织域名：`/agent-baseline-assessor/` 对应 `teloa-ai/agent-baseline-assessor`。
+## Deployment
 
-首页为纯静态 HTML，无脚本、统计或数据收集。GitHub Pages 从 `main` 分支根目录发布。
+This repository publishes the organization-level GitHub Pages homepage; the domain is specified by CNAME. Project sites are deployed independently from their own repositories and inherit the organization domain: /agent-baseline-assessor/ maps to teloa-ai/agent-baseline-assessor.
 
-品牌与小松鼠素材的权利说明见 [assets/README.md](assets/README.md)。
+The homepage is static HTML without scripts, analytics, or data collection. GitHub Pages publishes from the root of the main branch. The default presentation language is English.
+
+See [brand assets](assets/README.md) for the rights associated with the brand and squirrel artwork.
